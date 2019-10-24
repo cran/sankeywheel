@@ -1,0 +1,32 @@
+Package: sankeywheel
+Title: Create Dependency Wheels and Sankey Diagrams
+Type: Package
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Zhenxing",
+           family = "Cheng",
+           role = c("aut", "cre"),
+           email = "czxjnu@163.com"),
+    person(given = "Qiongqiong",
+    	   family = "Li",
+    	   role = c("aut", "ctb"),
+    	   email = "lqqflora@163.com"))
+Description: By binding R functions and the 'Highcharts' <http://www.highcharts.com/> charting library, 'sankeywheel' package provides a simple way to draw dependency wheels and sankey diagrams.
+License: MIT + file LICENSE
+Date: 2019-10-19
+Encoding: UTF-8
+Depends: R (>= 3.0.0)
+LazyData: true
+Imports: htmlwidgets
+Suggests: knitr, rmarkdown, shiny, colourpicker, manipulateWidget, DT
+VignetteBuilder: knitr
+URL: https://github.com/czxa/sankeywheel
+BugReports: https://github.com/czxa/sankeywheel/issues
+RoxygenNote: 6.1.1
+NeedsCompilation: no
+Packaged: 2019-10-20 11:09:07 UTC; czx
+Author: Zhenxing Cheng [aut, cre],
+  Qiongqiong Li [aut, ctb]
+Maintainer: Zhenxing Cheng <czxjnu@163.com>
+Repository: CRAN
+Date/Publication: 2019-10-24 10:40:02 UTC
